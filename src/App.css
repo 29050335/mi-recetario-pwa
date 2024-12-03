@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #ff9e43b6; /* Naranja cálido para comida */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  

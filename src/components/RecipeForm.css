@@ -1,0 +1,137 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%; /* Para limitar el tamaño del modal */
+    overflow-y: auto; /* Habilitar barra de desplazamiento */
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre elementos */
+  }
+  
+  .recipe-form h2,
+  .recipe-form h3 {
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .recipe-form input,
+  .recipe-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .recipe-form input:focus,
+  .recipe-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .recipe-form textarea {
+    resize: vertical; /* Permitir redimensionar solo en vertical */
+    min-height: 60px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); /* Pequeño efecto de zoom */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Efecto de click */
+  }
+  
+  .ingredient-input,
+  .step-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button[type='button'] {
+    background-color:  #ff9e43b6;
+    color: white;
+  }
+  
+  button[type='button']:hover {
+    background-color:  #ff9e43b6;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .save-button,
+  .create-another-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #a72c28b0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .save-button:hover,
+  .create-another-button:hover {
+    background-color: #a72c28b0;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,89 @@
+/* Estilo general del contenedor */
+.recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Tarjetas individuales */
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Imagen de la tarjeta */
+  .recipe-image {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .recipe-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Contenido de la receta */
+  .recipe-content {
+    margin-top: 15px;
+  }
+  
+  .recipe-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recipe-author {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  /* Lista de ingredientes */
+  .ingredients-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .ingredient-item {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Lista de pasos */
+  .steps-list {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  .step-item {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
